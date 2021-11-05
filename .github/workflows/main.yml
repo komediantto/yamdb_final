@@ -55,7 +55,6 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           sudo docker pull ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
-          cd yamdb_final
           sudo docker-compose stop
           sudo docker-compose rm web
           rm -f .env
