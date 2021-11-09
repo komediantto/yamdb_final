@@ -91,4 +91,7 @@ python manage.py loaddata fixtures.json
 http://localhost/redoc/
 ```
 
+## Адрес развёрнутого сервера
+
+https://178.154.220.140/
 
